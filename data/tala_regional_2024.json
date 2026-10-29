@@ -1,0 +1,1894 @@
+{
+ "meta": {
+  "titulo": "Tala y comercio ilegal de madera - Estudio Regional 2024",
+  "ambito": "Ucayali, Madre de Dios y Loreto (censo de CTP y depósitos/acopio)",
+  "fuentes": [
+   "Base de GTF 2024",
+   "Base de ENA 2024 (OSINFOR y PAS de inicio remitidos por las ARFFS)",
+   "Base de Censo Regional 2024"
+  ],
+  "archivo_doc": "4. Documento Metodológico Estudio Regional Consolidado 2024-v.02_12.12.25.xlsx",
+  "archivo_base": "Base_Acumulada_Estudio Regional_2024-v.03_13.12.25.xlsx"
+ },
+ "deps": {
+  "UCAYALI": {
+   "ubigeo": "25",
+   "nombre": "Ucayali"
+  },
+  "MADRE DE DIOS": {
+   "ubigeo": "17",
+   "nombre": "Madre de Dios"
+  },
+  "LORETO": {
+   "ubigeo": "16",
+   "nombre": "Loreto"
+  }
+ },
+ "indices_total": {
+  "UCAYALI": {
+   "label": "UCAYALI",
+   "DT": 865331.8843557171,
+   "OM": 712971.7793599998,
+   "ENA": 6224.102845626072,
+   "Oe": 706747.6765143737,
+   "FNC": 158584.20784134336,
+   "TIi": 1.2243858920392476,
+   "TIp": 0.1832640293376191,
+   "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+   "clase": "ilegal"
+  },
+  "MADRE DE DIOS": {
+   "label": "MADRE DE DIOS",
+   "DT": 501463.77090994024,
+   "OM": 439860.8355999993,
+   "ENA": 35887.60499999999,
+   "Oe": 403973.2305999993,
+   "FNC": 97490.54030994093,
+   "TIi": 1.2413292092774157,
+   "TIp": 0.19441193155995634,
+   "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+   "clase": "ilegal"
+  },
+  "LORETO": {
+   "label": "LORETO",
+   "DT": 604237.7283414423,
+   "OM": 451112.96508199984,
+   "ENA": 51258.86699999999,
+   "Oe": 399854.09808199987,
+   "FNC": 204383.63025944243,
+   "TIi": 1.5111455184273954,
+   "TIp": 0.338250361857493,
+   "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+   "clase": "ilegal"
+  },
+  "REGIONAL": {
+   "label": "Total Regional",
+   "DT": 1971033.3836070995,
+   "OM": 1603945.5800419988,
+   "ENA": 93370.57484562605,
+   "Oe": 1510575.005196373,
+   "FNC": 460458.3784107267,
+   "TIi": 1.3048232473241985,
+   "TIp": 0.233612673555058,
+   "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+   "clase": "ilegal"
+  }
+ },
+ "indices_th": {
+  "UCAYALI": {
+   "label": "UCAYALI",
+   "DT": 721574.057440029,
+   "OM": 689555.0688399997,
+   "ENA": 1563.952,
+   "Oe": 687991.1168399997,
+   "FNC": 33582.94060002931,
+   "TIi": 1.0488130439158554,
+   "TIp": 0.04654122505342487,
+   "interp": "Equilibrio estadístico: Balance entre oferta y demanda dentro del margen de error de medición. No se puede afirmar presencia de tala ilegal.",
+   "clase": "equilibrio"
+  },
+  "MADRE DE DIOS": {
+   "label": "MADRE DE DIOS",
+   "DT": 487483.0425156235,
+   "OM": 431420.82719999936,
+   "ENA": 34872.68499999999,
+   "Oe": 396548.14219999936,
+   "FNC": 90934.90031562414,
+   "TIi": 1.229316167795236,
+   "TIp": 0.18653961755543474,
+   "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+   "clase": "ilegal"
+  },
+  "LORETO": {
+   "label": "LORETO",
+   "DT": 556222.8350952881,
+   "OM": 431816.9296419999,
+   "ENA": 44669.93699999999,
+   "Oe": 387146.9926419999,
+   "FNC": 169075.8424532882,
+   "TIi": 1.4367226032145235,
+   "TIp": 0.303971415384849,
+   "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+   "clase": "ilegal"
+  },
+  "REGIONAL": {
+   "label": "Total Regional",
+   "DT": 1765279.9350509406,
+   "OM": 1552792.8256819989,
+   "ENA": 81106.57399999998,
+   "Oe": 1471686.2516819988,
+   "FNC": 293593.68336894165,
+   "TIi": 1.199494751706345,
+   "TIp": 0.16631565200477363,
+   "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+   "clase": "ilegal"
+  }
+ },
+ "balance": {
+  "UCAYALI": [
+   {
+    "label": "Concesiones Forestales (Maderables + No Maderables + Forestación y Reforestación)",
+    "DT": 218605.02880195153,
+    "OM": 307765.7470000002,
+    "ENA": 92.511,
+    "Oe": 307673.2360000002,
+    "FNC": -89068.20719804868,
+    "TIi": 0.7105103831714221,
+    "TIp": -0.40743896737499735,
+    "interp": "Sobreoferta legal: La oferta legal supera significativamente la demanda. Sugiere exportación a otras regiones o subdeclaración de demanda.",
+    "clase": "sobreoferta",
+    "grupo": "TH"
+   },
+   {
+    "label": "Permisos Forestales (Predios Privados + CCNN y CC)",
+    "DT": 502000.712518604,
+    "OM": 377759.93283999956,
+    "ENA": 1471.441,
+    "Oe": 376288.49183999957,
+    "FNC": 125712.22067860444,
+    "TIi": 1.334084680782792,
+    "TIp": 0.25042239491631313,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "TH"
+   },
+   {
+    "label": "Contratos de Administración (Bosques Locales)",
+    "DT": 968.3161194734275,
+    "OM": 4029.389000000001,
+    "ENA": 0.0,
+    "Oe": 4029.389000000001,
+    "FNC": -3061.0728805265735,
+    "TIi": 0.24031338733327243,
+    "TIp": -3.1612330095167596,
+    "interp": "Sobreoferta legal: La oferta legal supera significativamente la demanda. Sugiere exportación a otras regiones o subdeclaración de demanda.",
+    "clase": "sobreoferta",
+    "grupo": "TH"
+   },
+   {
+    "label": "Títulos Habilitantes (TH)",
+    "DT": 721574.057440029,
+    "OM": 689555.0688399997,
+    "ENA": 1563.952,
+    "Oe": 687991.1168399998,
+    "FNC": 33582.940600029186,
+    "TIi": 1.0488130439158552,
+    "TIp": 0.046541225053424694,
+    "interp": "Equilibrio estadístico: Balance entre oferta y demanda dentro del margen de error de medición. No se puede afirmar presencia de tala ilegal.",
+    "clase": "equilibrio",
+    "grupo": "TH_TOTAL"
+   },
+   {
+    "label": "Registro de Plantaciones Forestales",
+    "DT": 76613.64126603531,
+    "OM": 23416.710520000008,
+    "ENA": 0.0,
+    "Oe": 23416.710520000008,
+    "FNC": 53196.9307460353,
+    "TIi": 3.271750795253683,
+    "TIp": 0.6943532491989621,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "OAA"
+   },
+   {
+    "label": "Autorización Cambio de Uso",
+    "DT": 0.0,
+    "OM": 0.0,
+    "ENA": 0.0,
+    "Oe": 0.0,
+    "FNC": 0.0,
+    "TIi": null,
+    "TIp": null,
+    "interp": "Indeterminado (Tipo A): Sin actividad forestal registrada. No es posible calcular el índice.",
+    "clase": "indet_a",
+    "grupo": "OAA"
+   },
+   {
+    "label": "Actos administrativos (CTP, depósitos, etc)",
+    "DT": 49576.005741433364,
+    "OM": 0.0,
+    "ENA": 0.0,
+    "Oe": 0.0,
+    "FNC": 49576.005741433364,
+    "TIi": null,
+    "TIp": 1.0,
+    "interp": "Indeterminado (Tipo B): Demanda sin oferta legal. Indica posible informalidad total o error en registros.",
+    "clase": "indet_b",
+    "grupo": "OAA"
+   },
+   {
+    "label": "Categoría No determinada",
+    "DT": 0.0,
+    "OM": 0.0,
+    "ENA": 4660.150845626072,
+    "Oe": -4660.150845626072,
+    "FNC": 4660.150845626072,
+    "TIi": 0.0,
+    "TIp": null,
+    "interp": "Indeterminado (Tipo A): Sin actividad forestal registrada. No es posible calcular el índice.",
+    "clase": "indet_a",
+    "grupo": "OAA"
+   },
+   {
+    "label": "Actos administrativos",
+    "DT": 126189.64700746868,
+    "OM": 23416.710520000008,
+    "ENA": 4660.150845626072,
+    "Oe": 18756.559674373937,
+    "FNC": 107433.08733309474,
+    "TIi": 6.727760804657301,
+    "TIp": 0.8513621353321972,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "OAA_TOTAL"
+   },
+   {
+    "label": "Arrastre por rio",
+    "DT": 0.0,
+    "OM": 0.0,
+    "ENA": 0.0,
+    "Oe": 0.0,
+    "FNC": 0.0,
+    "TIi": null,
+    "TIp": null,
+    "interp": "Indeterminado (Tipo A): Sin actividad forestal registrada. No es posible calcular el índice.",
+    "clase": "indet_a",
+    "grupo": "OTROS"
+   },
+   {
+    "label": "Otros (chacras, etc)",
+    "DT": 17568.17990821947,
+    "OM": 0.0,
+    "ENA": 0.0,
+    "Oe": 0.0,
+    "FNC": 17568.17990821947,
+    "TIi": null,
+    "TIp": 1.0,
+    "interp": "Indeterminado (Tipo B): Demanda sin oferta legal. Indica posible informalidad total o error en registros.",
+    "clase": "indet_b",
+    "grupo": "OTROS"
+   },
+   {
+    "label": "Otros (*)",
+    "DT": 17568.17990821947,
+    "OM": 0.0,
+    "ENA": 0.0,
+    "Oe": 0.0,
+    "FNC": 17568.17990821947,
+    "TIi": null,
+    "TIp": 1.0,
+    "interp": "Indeterminado (Tipo B): Demanda sin oferta legal. Indica posible informalidad total o error en registros.",
+    "clase": "indet_b",
+    "grupo": "OTROS_TOTAL"
+   },
+   {
+    "label": "Total general",
+    "DT": 865331.8843557171,
+    "OM": 712971.7793599997,
+    "ENA": 6224.102845626072,
+    "Oe": 706747.6765143737,
+    "FNC": 158584.2078413434,
+    "TIi": 1.2243858920392476,
+    "TIp": 0.18326402933761915,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "TOTAL"
+   }
+  ],
+  "MADRE DE DIOS": [
+   {
+    "label": "Concesiones Forestales (Maderables + No Maderables + Forestación y Reforestación)",
+    "DT": 420511.7027248214,
+    "OM": 404821.3218399994,
+    "ENA": 30188.41399999999,
+    "Oe": 374632.9078399994,
+    "FNC": 45878.79488482198,
+    "TIi": 1.1224633339055634,
+    "TIp": 0.1091023022368645,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "TH"
+   },
+   {
+    "label": "Permisos Forestales (Predios Privados + CCNN y CC)",
+    "DT": 66971.33979080207,
+    "OM": 26599.50535999993,
+    "ENA": 4684.271000000001,
+    "Oe": 21915.23435999993,
+    "FNC": 45056.10543080214,
+    "TIi": 3.055926242479037,
+    "TIp": 0.6727669712378996,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "TH"
+   },
+   {
+    "label": "Contratos de Administración (Bosques Locales)",
+    "DT": 0.0,
+    "OM": 0.0,
+    "ENA": 0.0,
+    "Oe": 0.0,
+    "FNC": 0.0,
+    "TIi": null,
+    "TIp": null,
+    "interp": "Indeterminado (Tipo A): Sin actividad forestal registrada. No es posible calcular el índice.",
+    "clase": "indet_a",
+    "grupo": "TH"
+   },
+   {
+    "label": "Títulos Habilitantes (TH)",
+    "DT": 487483.0425156235,
+    "OM": 431420.82719999936,
+    "ENA": 34872.68499999999,
+    "Oe": 396548.14219999936,
+    "FNC": 90934.90031562412,
+    "TIi": 1.229316167795236,
+    "TIp": 0.18653961755543472,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "TH_TOTAL"
+   },
+   {
+    "label": "Registro de Plantaciones Forestales",
+    "DT": 141.21407999999963,
+    "OM": 141.21407999999963,
+    "ENA": 0.0,
+    "Oe": 141.21407999999963,
+    "FNC": 0.0,
+    "TIi": 1.0,
+    "TIp": 0.0,
+    "interp": "Equilibrio estadístico: Balance entre oferta y demanda dentro del margen de error de medición. No se puede afirmar presencia de tala ilegal.",
+    "clase": "equilibrio",
+    "grupo": "OAA"
+   },
+   {
+    "label": "Autorización Cambio de Uso",
+    "DT": 8003.402175224142,
+    "OM": 7940.024319999988,
+    "ENA": 0.0,
+    "Oe": 7940.024319999988,
+    "FNC": 63.3778552241547,
+    "TIi": 1.007982073186415,
+    "TIp": 0.007918864232557419,
+    "interp": "Equilibrio estadístico: Balance entre oferta y demanda dentro del margen de error de medición. No se puede afirmar presencia de tala ilegal.",
+    "clase": "equilibrio",
+    "grupo": "OAA"
+   },
+   {
+    "label": "Actos administrativos (CTP, depósitos, etc)",
+    "DT": 3294.647341434511,
+    "OM": 0.0,
+    "ENA": 0.0,
+    "Oe": 0.0,
+    "FNC": 3294.647341434511,
+    "TIi": null,
+    "TIp": 1.0,
+    "interp": "Indeterminado (Tipo B): Demanda sin oferta legal. Indica posible informalidad total o error en registros.",
+    "clase": "indet_b",
+    "grupo": "OAA"
+   },
+   {
+    "label": "Categoría No determinada",
+    "DT": 0.0,
+    "OM": 0.0,
+    "ENA": 1014.92,
+    "Oe": -1014.92,
+    "FNC": 1014.92,
+    "TIi": 0.0,
+    "TIp": null,
+    "interp": "Indeterminado (Tipo A): Sin actividad forestal registrada. No es posible calcular el índice.",
+    "clase": "indet_a",
+    "grupo": "OAA"
+   },
+   {
+    "label": "Actos administrativos",
+    "DT": 11439.263596658653,
+    "OM": 8081.238399999987,
+    "ENA": 1014.92,
+    "Oe": 7066.318399999987,
+    "FNC": 4372.945196658666,
+    "TIi": 1.6188434980029591,
+    "TIp": 0.38227506165134434,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "OAA_TOTAL"
+   },
+   {
+    "label": "Arrastre por rio",
+    "DT": 326.51,
+    "OM": 358.77,
+    "ENA": 0.0,
+    "Oe": 358.77,
+    "FNC": -32.25999999999999,
+    "TIi": 0.9100816679209521,
+    "TIp": -0.09880248690698598,
+    "interp": "Sobreoferta legal: La oferta legal supera significativamente la demanda. Sugiere exportación a otras regiones o subdeclaración de demanda.",
+    "clase": "sobreoferta",
+    "grupo": "OTROS"
+   },
+   {
+    "label": "Otros (chacras, etc)",
+    "DT": 2214.9547976580534,
+    "OM": 0.0,
+    "ENA": 0.0,
+    "Oe": 0.0,
+    "FNC": 2214.9547976580534,
+    "TIi": null,
+    "TIp": 1.0,
+    "interp": "Indeterminado (Tipo B): Demanda sin oferta legal. Indica posible informalidad total o error en registros.",
+    "clase": "indet_b",
+    "grupo": "OTROS"
+   },
+   {
+    "label": "Otros (*)",
+    "DT": 2541.4647976580536,
+    "OM": 358.77,
+    "ENA": 0.0,
+    "Oe": 358.77,
+    "FNC": 2182.694797658053,
+    "TIi": 7.0838275152829215,
+    "TIp": 0.8588333781641968,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "OTROS_TOTAL"
+   },
+   {
+    "label": "Total general",
+    "DT": 501463.7709099402,
+    "OM": 439860.83559999935,
+    "ENA": 35887.60499999999,
+    "Oe": 403973.23059999937,
+    "FNC": 97490.54030994084,
+    "TIi": 1.2413292092774153,
+    "TIp": 0.1944119315599562,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "TOTAL"
+   }
+  ],
+  "LORETO": [
+   {
+    "label": "Concesiones Forestales (Maderables + No Maderables + Forestación y Reforestación)",
+    "DT": 186422.7416161514,
+    "OM": 90956.29361199995,
+    "ENA": 5284.402999999999,
+    "Oe": 85671.89061199994,
+    "FNC": 100750.85100415147,
+    "TIi": 2.1760082599372383,
+    "TIp": 0.540442920915731,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "TH"
+   },
+   {
+    "label": "Permisos Forestales (Predios Privados + CCNN y CC)",
+    "DT": 361717.0468406443,
+    "OM": 314637.70972999994,
+    "ENA": 39385.53399999999,
+    "Oe": 275252.17572999996,
+    "FNC": 86464.87111064437,
+    "TIi": 1.314129655401741,
+    "TIp": 0.23904007805509028,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "TH"
+   },
+   {
+    "label": "Contratos de Administración (Bosques Locales)",
+    "DT": 8083.046638492426,
+    "OM": 26222.926300000003,
+    "ENA": 0.0,
+    "Oe": 26222.926300000003,
+    "FNC": -18139.879661507577,
+    "TIi": 0.308243502117932,
+    "TIp": -2.244188419639115,
+    "interp": "Sobreoferta legal: La oferta legal supera significativamente la demanda. Sugiere exportación a otras regiones o subdeclaración de demanda.",
+    "clase": "sobreoferta",
+    "grupo": "TH"
+   },
+   {
+    "label": "Títulos Habilitantes (TH)",
+    "DT": 556222.8350952881,
+    "OM": 431816.9296419999,
+    "ENA": 44669.93699999999,
+    "Oe": 387146.9926419999,
+    "FNC": 169075.84245328823,
+    "TIi": 1.4367226032145235,
+    "TIp": 0.30397141538484906,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "TH_TOTAL"
+   },
+   {
+    "label": "Registro de Plantaciones Forestales",
+    "DT": 0.0,
+    "OM": 19296.035439999992,
+    "ENA": 2047.12,
+    "Oe": 17248.915439999993,
+    "FNC": -17248.915439999993,
+    "TIi": 0.0,
+    "TIp": null,
+    "interp": "Indeterminado (Tipo C): Oferta legal sin demanda declarada. Posible subdeclaración de consumo o tránsito.",
+    "clase": "indet_c",
+    "grupo": "OAA"
+   },
+   {
+    "label": "Autorización Cambio de Uso",
+    "DT": 63.35117173194885,
+    "OM": 0.0,
+    "ENA": 0.0,
+    "Oe": 0.0,
+    "FNC": 63.35117173194885,
+    "TIi": null,
+    "TIp": 1.0,
+    "interp": "Indeterminado (Tipo B): Demanda sin oferta legal. Indica posible informalidad total o error en registros.",
+    "clase": "indet_b",
+    "grupo": "OAA"
+   },
+   {
+    "label": "Actos administrativos (CTP, depósitos, etc)",
+    "DT": 43222.15227610462,
+    "OM": 0.0,
+    "ENA": 0.0,
+    "Oe": 0.0,
+    "FNC": 43222.15227610462,
+    "TIi": null,
+    "TIp": 1.0,
+    "interp": "Indeterminado (Tipo B): Demanda sin oferta legal. Indica posible informalidad total o error en registros.",
+    "clase": "indet_b",
+    "grupo": "OAA"
+   },
+   {
+    "label": "Categoría No determinada",
+    "DT": 0.0,
+    "OM": 0.0,
+    "ENA": 4541.8099999999995,
+    "Oe": -4541.8099999999995,
+    "FNC": 4541.8099999999995,
+    "TIi": 0.0,
+    "TIp": null,
+    "interp": "Indeterminado (Tipo A): Sin actividad forestal registrada. No es posible calcular el índice.",
+    "clase": "indet_a",
+    "grupo": "OAA"
+   },
+   {
+    "label": "Actos administrativos",
+    "DT": 43285.50344783657,
+    "OM": 19296.035439999992,
+    "ENA": 6588.929999999999,
+    "Oe": 12707.105439999994,
+    "FNC": 30578.39800783658,
+    "TIi": 3.4064015327661115,
+    "TIp": 0.70643507807843,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "OAA_TOTAL"
+   },
+   {
+    "label": "Arrastre por rio",
+    "DT": 0.0,
+    "OM": 0.0,
+    "ENA": 0.0,
+    "Oe": 0.0,
+    "FNC": 0.0,
+    "TIi": null,
+    "TIp": null,
+    "interp": "Indeterminado (Tipo A): Sin actividad forestal registrada. No es posible calcular el índice.",
+    "clase": "indet_a",
+    "grupo": "OTROS"
+   },
+   {
+    "label": "Otros (chacras, etc)",
+    "DT": 4729.389798317417,
+    "OM": 0.0,
+    "ENA": 0.0,
+    "Oe": 0.0,
+    "FNC": 4729.389798317417,
+    "TIi": null,
+    "TIp": 1.0,
+    "interp": "Indeterminado (Tipo B): Demanda sin oferta legal. Indica posible informalidad total o error en registros.",
+    "clase": "indet_b",
+    "grupo": "OTROS"
+   },
+   {
+    "label": "Otros (*)",
+    "DT": 4729.389798317417,
+    "OM": 0.0,
+    "ENA": 0.0,
+    "Oe": 0.0,
+    "FNC": 4729.389798317417,
+    "TIi": null,
+    "TIp": 1.0,
+    "interp": "Indeterminado (Tipo B): Demanda sin oferta legal. Indica posible informalidad total o error en registros.",
+    "clase": "indet_b",
+    "grupo": "OTROS_TOTAL"
+   },
+   {
+    "label": "Total general",
+    "DT": 604237.7283414422,
+    "OM": 451112.9650819999,
+    "ENA": 51258.86699999999,
+    "Oe": 399854.0980819999,
+    "FNC": 204383.63025944223,
+    "TIi": 1.511145518427395,
+    "TIp": 0.33825036185749274,
+    "interp": "Tala ilegal: La demanda supera significativamente la oferta legal. Evidencia de flujo no controlado.",
+    "clase": "ilegal",
+    "grupo": "TOTAL"
+   }
+  ]
+ },
+ "ena_fnc": {
+  "UCAYALI": 0.039247936035680275,
+  "MADRE DE DIOS": 0.3681137152990076,
+  "LORETO": 0.2507973213653783
+ },
+ "composicion": [
+  {
+   "dep": "LORETO",
+   "variable": "Demanda",
+   "tipo": "OAA",
+   "modalidad": "Autorización Cambio de Uso",
+   "volumen": 63.35
+  },
+  {
+   "dep": "LORETO",
+   "variable": "Demanda",
+   "tipo": "OAA",
+   "modalidad": "Otros Actos",
+   "volumen": 43222.15
+  },
+  {
+   "dep": "LORETO",
+   "variable": "Demanda",
+   "tipo": "OTROS",
+   "modalidad": "Otros",
+   "volumen": 4729.39
+  },
+  {
+   "dep": "LORETO",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Concesiones Forestales - Maderables",
+   "volumen": 186422.74
+  },
+  {
+   "dep": "LORETO",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Contratos de Administración - Bosques Locales",
+   "volumen": 5425.75
+  },
+  {
+   "dep": "LORETO",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Contratos de Cesión en Uso para Sistemas Agroforestales (CUSAF)",
+   "volumen": 2657.3
+  },
+  {
+   "dep": "LORETO",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Comunidad Nativa y Campesina",
+   "volumen": 350418.08
+  },
+  {
+   "dep": "LORETO",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Predio Privado",
+   "volumen": 11298.97
+  },
+  {
+   "dep": "LORETO",
+   "variable": "ENA",
+   "tipo": "OAA",
+   "modalidad": "Registro de Plantaciones",
+   "volumen": 2047.12
+  },
+  {
+   "dep": "LORETO",
+   "variable": "ENA",
+   "tipo": "OTROS",
+   "modalidad": "PAS ARFFS (categoría no determinada)",
+   "volumen": 4541.81
+  },
+  {
+   "dep": "LORETO",
+   "variable": "ENA",
+   "tipo": "TH",
+   "modalidad": "Concesiones Forestales - Maderables",
+   "volumen": 5284.4
+  },
+  {
+   "dep": "LORETO",
+   "variable": "ENA",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Comunidad Nativa y Campesina",
+   "volumen": 20355.36
+  },
+  {
+   "dep": "LORETO",
+   "variable": "ENA",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Predio Privado",
+   "volumen": 19030.17
+  },
+  {
+   "dep": "LORETO",
+   "variable": "Oferta",
+   "tipo": "OAA",
+   "modalidad": "Registro de Plantaciones",
+   "volumen": 19296.04
+  },
+  {
+   "dep": "LORETO",
+   "variable": "Oferta",
+   "tipo": "TH",
+   "modalidad": "Concesiones Forestales - Maderables",
+   "volumen": 90956.29
+  },
+  {
+   "dep": "LORETO",
+   "variable": "Oferta",
+   "tipo": "TH",
+   "modalidad": "Contratos de Administración - Bosques Locales",
+   "volumen": 26222.93
+  },
+  {
+   "dep": "LORETO",
+   "variable": "Oferta",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Comunidad Nativa y Campesina",
+   "volumen": 253858.99
+  },
+  {
+   "dep": "LORETO",
+   "variable": "Oferta",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Predio Privado",
+   "volumen": 60778.72
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Demanda",
+   "tipo": "OAA",
+   "modalidad": "Autorización Cambio de Uso",
+   "volumen": 8003.4
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Demanda",
+   "tipo": "OAA",
+   "modalidad": "Otros Actos",
+   "volumen": 3294.65
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Demanda",
+   "tipo": "OAA",
+   "modalidad": "Registro de Plantaciones",
+   "volumen": 141.21
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Demanda",
+   "tipo": "OTROS",
+   "modalidad": "Arrastre por Río",
+   "volumen": 326.51
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Demanda",
+   "tipo": "OTROS",
+   "modalidad": "Otros",
+   "volumen": 2214.95
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Concesiones Forestales - Conservación",
+   "volumen": 420.03
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Concesiones Forestales - Maderables",
+   "volumen": 129649.69
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Concesiones Forestales - No Maderables",
+   "volumen": 290441.99
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Comunidad Nativa y Campesina",
+   "volumen": 56088.81
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Predio Privado",
+   "volumen": 10882.53
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "ENA",
+   "tipo": "OTROS",
+   "modalidad": "PAS ARFFS (categoría no determinada)",
+   "volumen": 1014.92
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "ENA",
+   "tipo": "TH",
+   "modalidad": "Concesiones Forestales - Maderables",
+   "volumen": 4438.58
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "ENA",
+   "tipo": "TH",
+   "modalidad": "Concesiones Forestales - No Maderables",
+   "volumen": 25749.84
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "ENA",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Comunidad Nativa y Campesina",
+   "volumen": 560.13
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "ENA",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Predio Privado",
+   "volumen": 4124.14
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Oferta",
+   "tipo": "OAA",
+   "modalidad": "Autorización Cambio de Uso",
+   "volumen": 7940.02
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Oferta",
+   "tipo": "OAA",
+   "modalidad": "Registro de Plantaciones",
+   "volumen": 141.21
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Oferta",
+   "tipo": "OTROS",
+   "modalidad": "Arrastre por Río",
+   "volumen": 358.77
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Oferta",
+   "tipo": "TH",
+   "modalidad": "Concesiones Forestales - Maderables",
+   "volumen": 102541.12
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Oferta",
+   "tipo": "TH",
+   "modalidad": "Concesiones Forestales - No Maderables",
+   "volumen": 302280.2
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Oferta",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Comunidad Nativa y Campesina",
+   "volumen": 19024.86
+  },
+  {
+   "dep": "MADRE DE DIOS",
+   "variable": "Oferta",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Predio Privado",
+   "volumen": 7574.64
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "Demanda",
+   "tipo": "OAA",
+   "modalidad": "Otros Actos",
+   "volumen": 49576.01
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "Demanda",
+   "tipo": "OAA",
+   "modalidad": "Registro de Plantaciones",
+   "volumen": 76613.64
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "Demanda",
+   "tipo": "OTROS",
+   "modalidad": "Otros",
+   "volumen": 17568.18
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Concesiones Forestales - Maderables",
+   "volumen": 218538.49
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Concesiones Forestales - No Maderables",
+   "volumen": 66.54
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Contratos de Administración - Bosques Locales",
+   "volumen": 968.32
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Comunidad Nativa y Campesina",
+   "volumen": 480091.77
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "Demanda",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Predio Privado",
+   "volumen": 21908.95
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "ENA",
+   "tipo": "OTROS",
+   "modalidad": "PAS ARFFS (categoría no determinada)",
+   "volumen": 4660.15
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "ENA",
+   "tipo": "TH",
+   "modalidad": "Concesiones Forestales - Maderables",
+   "volumen": 92.51
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "ENA",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Comunidad Nativa y Campesina",
+   "volumen": 1110.99
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "ENA",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Predio Privado",
+   "volumen": 360.45
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "Oferta",
+   "tipo": "OAA",
+   "modalidad": "Registro de Plantaciones",
+   "volumen": 23416.71
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "Oferta",
+   "tipo": "TH",
+   "modalidad": "Concesiones Forestales - Maderables",
+   "volumen": 307765.75
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "Oferta",
+   "tipo": "TH",
+   "modalidad": "Contratos de Administración - Bosques Locales",
+   "volumen": 4029.39
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "Oferta",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Comunidad Nativa y Campesina",
+   "volumen": 370721.63
+  },
+  {
+   "dep": "UCAYALI",
+   "variable": "Oferta",
+   "tipo": "TH",
+   "modalidad": "Permisos Forestales - Predio Privado",
+   "volumen": 7038.3
+  }
+ ],
+ "marco": {
+  "UCAYALI": {
+   "CTP": 187,
+   "Depositos": 55,
+   "Total": 242
+  },
+  "MADRE DE DIOS": {
+   "CTP": 72,
+   "Depositos": 34,
+   "Total": 106
+  },
+  "LORETO": {
+   "CTP": 51,
+   "Depositos": 146,
+   "Total": 197
+  }
+ },
+ "censo": {
+  "UCAYALI": {
+   "directorio": {
+    "CTP": 194,
+    "Depositos": 55,
+    "Total": 249
+   },
+   "resultado": [
+    {
+     "resultado": "Encuesta Completa",
+     "CTP": 166,
+     "Depositos": 31,
+     "Total": 197
+    },
+    {
+     "resultado": "Rechaza en proporcionar información",
+     "CTP": 1,
+     "Depositos": 1,
+     "Total": 2
+    },
+    {
+     "resultado": "Inubicable/inexistente",
+     "CTP": 4,
+     "Depositos": 2,
+     "Total": 6
+    },
+    {
+     "resultado": "Cerrada",
+     "CTP": 4,
+     "Depositos": 0,
+     "Total": 4
+    },
+    {
+     "resultado": "Fuera de la muestra - reemplazo",
+     "CTP": 1,
+     "Depositos": 0,
+     "Total": 1
+    }
+   ]
+  },
+  "MADRE DE DIOS": {
+   "directorio": {
+    "CTP": 72,
+    "Depositos": 34,
+    "Total": 106
+   },
+   "resultado": [
+    {
+     "resultado": "Encuesta Completa",
+     "CTP": 60,
+     "Depositos": 27,
+     "Total": 87
+    },
+    {
+     "resultado": "Rechaza en proporcionar información",
+     "CTP": 2,
+     "Depositos": 1,
+     "Total": 3
+    },
+    {
+     "resultado": "Cerrada",
+     "CTP": 1,
+     "Depositos": 0,
+     "Total": 1
+    },
+    {
+     "resultado": "Fuera de la muestra - reemplazo",
+     "CTP": 3,
+     "Depositos": 1,
+     "Total": 4
+    }
+   ]
+  },
+  "LORETO": {
+   "directorio": {
+    "CTP": 51,
+    "Depositos": 148,
+    "Total": 199
+   },
+   "resultado": [
+    {
+     "resultado": "Encuesta Completa",
+     "CTP": 35,
+     "Depositos": 115,
+     "Total": 150
+    },
+    {
+     "resultado": "Rechaza en proporcionar información",
+     "CTP": 0,
+     "Depositos": 1,
+     "Total": 1
+    },
+    {
+     "resultado": "Inubicable/inexistente",
+     "CTP": 1,
+     "Depositos": 0,
+     "Total": 1
+    },
+    {
+     "resultado": "Cerrada",
+     "CTP": 1,
+     "Depositos": 1,
+     "Total": 2
+    },
+    {
+     "resultado": "Fuera de la muestra - reemplazo",
+     "CTP": 4,
+     "Depositos": 2,
+     "Total": 6
+    }
+   ]
+  }
+ },
+ "nacional": {
+  "fuente": "OSINFOR (2025). Medición del índice y porcentaje de tala y comercio ilegal de madera en el Perú, 2024.",
+  "serie": [
+   {
+    "anio": 2017,
+    "TIp": 0.37,
+    "TIi": null
+   },
+   {
+    "anio": 2019,
+    "TIp": 0.315,
+    "TIi": 1.46
+   },
+   {
+    "anio": 2021,
+    "TIp": 0.207,
+    "TIi": 1.26
+   },
+   {
+    "anio": 2023,
+    "TIp": 0.477,
+    "TIi": 1.91
+   },
+   {
+    "anio": 2024,
+    "TIp": 0.548,
+    "TIi": 2.21
+   }
+  ],
+  "2024": {
+   "DT": 4085676,
+   "OM": 1953710,
+   "ENA": 103195,
+   "ENA_TH": 87270,
+   "Oe": 1850515,
+   "FNC": 2235161,
+   "TIi": 2.21,
+   "TIp": 0.548
+  },
+  "deps": {
+   "UCAYALI": {
+    "ubigeo": "25",
+    "nombre": "Ucayali",
+    "OM": 712972,
+    "DT": 1085388,
+    "ENA": 6224,
+    "ENA_TH": 1564,
+    "oferta": {
+     "Permisos CCNN y CC": 370722,
+     "Concesiones maderables": 307766,
+     "Concesiones no maderables": 0,
+     "Permisos predio privado": 7038,
+     "Contratos bosques locales": 4029,
+     "Registro de plantaciones": 23417,
+     "Autorización cambio de uso": 0,
+     "Arrastre por río": 0
+    },
+    "demanda": {
+     "Permisos CCNN y CC": 559595,
+     "Concesiones maderables": 348950,
+     "Permisos predio privado": 8128,
+     "Concesiones no maderables": 0,
+     "Contratos bosques locales": 1815,
+     "Registro de plantaciones": 99398,
+     "Otros actos": 54986,
+     "Autorización cambio de uso": 0,
+     "Otros": 12517
+    },
+    "ena_th": {
+     "Permisos predio privado": 360,
+     "Concesiones no maderables": 0,
+     "Permisos CCNN y CC": 1111,
+     "Concesiones maderables": 93
+    },
+    "rolliza": 712559,
+    "aserrada": 412,
+    "fe_ctp": 1.39,
+    "fe_dep": 0.94
+   },
+   "LORETO": {
+    "ubigeo": "16",
+    "nombre": "Loreto",
+    "OM": 451113,
+    "DT": 1077235,
+    "ENA": 51259,
+    "ENA_TH": 44669,
+    "oferta": {
+     "Permisos CCNN y CC": 253859,
+     "Concesiones maderables": 90956,
+     "Concesiones no maderables": 0,
+     "Permisos predio privado": 60779,
+     "Contratos bosques locales": 26223,
+     "Registro de plantaciones": 19296,
+     "Autorización cambio de uso": 0,
+     "Arrastre por río": 0
+    },
+    "demanda": {
+     "Permisos CCNN y CC": 620768,
+     "Concesiones maderables": 345236,
+     "Permisos predio privado": 87090,
+     "Concesiones no maderables": 0,
+     "Contratos bosques locales": 3954,
+     "Registro de plantaciones": 0,
+     "Otros actos": 16076,
+     "Autorización cambio de uso": 162,
+     "Otros": 3949
+    },
+    "ena_th": {
+     "Permisos predio privado": 19030,
+     "Concesiones no maderables": 0,
+     "Permisos CCNN y CC": 20355,
+     "Concesiones maderables": 5284
+    },
+    "rolliza": 421505,
+    "aserrada": 29608,
+    "fe_ctp": 2.16,
+    "fe_dep": 2.2
+   },
+   "MADRE DE DIOS": {
+    "ubigeo": "17",
+    "nombre": "Madre de Dios",
+    "OM": 439861,
+    "DT": 272758,
+    "ENA": 35888,
+    "ENA_TH": 34873,
+    "oferta": {
+     "Permisos CCNN y CC": 19025,
+     "Concesiones maderables": 102541,
+     "Concesiones no maderables": 302280,
+     "Permisos predio privado": 7575,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 141,
+     "Autorización cambio de uso": 7940,
+     "Arrastre por río": 359
+    },
+    "demanda": {
+     "Permisos CCNN y CC": 28737,
+     "Concesiones maderables": 164897,
+     "Permisos predio privado": 4659,
+     "Concesiones no maderables": 68170,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 0,
+     "Otros actos": 3155,
+     "Autorización cambio de uso": 632,
+     "Otros": 2509
+    },
+    "ena_th": {
+     "Permisos predio privado": 4124,
+     "Concesiones no maderables": 25750,
+     "Permisos CCNN y CC": 560,
+     "Concesiones maderables": 4439
+    },
+    "rolliza": 160913,
+    "aserrada": 278948,
+    "fe_ctp": 1.12,
+    "fe_dep": 1.07
+   },
+   "HUANUCO": {
+    "ubigeo": "10",
+    "nombre": "Huánuco",
+    "OM": 130401,
+    "DT": 266785,
+    "ENA": 1792,
+    "ENA_TH": 1214,
+    "oferta": {
+     "Permisos CCNN y CC": 31000,
+     "Concesiones maderables": 3128,
+     "Concesiones no maderables": 0,
+     "Permisos predio privado": 11109,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 85165,
+     "Autorización cambio de uso": 0,
+     "Arrastre por río": 0
+    },
+    "demanda": {
+     "Permisos CCNN y CC": 180327,
+     "Concesiones maderables": 25875,
+     "Permisos predio privado": 22868,
+     "Concesiones no maderables": 0,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 17199,
+     "Otros actos": 18974,
+     "Autorización cambio de uso": 0,
+     "Otros": 1542
+    },
+    "ena_th": {
+     "Permisos predio privado": 1146,
+     "Concesiones no maderables": 0,
+     "Permisos CCNN y CC": 68,
+     "Concesiones maderables": 0
+    },
+    "rolliza": 59161,
+    "aserrada": 71240,
+    "fe_ctp": 6.7,
+    "fe_dep": 6.0
+   },
+   "JUNIN": {
+    "ubigeo": "12",
+    "nombre": "Junín",
+    "OM": 120133,
+    "DT": 994833,
+    "ENA": 469,
+    "ENA_TH": 285,
+    "oferta": {
+     "Permisos CCNN y CC": 116623,
+     "Concesiones maderables": 0,
+     "Concesiones no maderables": 0,
+     "Permisos predio privado": 1092,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 2419,
+     "Autorización cambio de uso": 0,
+     "Arrastre por río": 0
+    },
+    "demanda": {
+     "Permisos CCNN y CC": 932279,
+     "Concesiones maderables": 0,
+     "Permisos predio privado": 386,
+     "Concesiones no maderables": 0,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 7933,
+     "Otros actos": 54069,
+     "Autorización cambio de uso": 0,
+     "Otros": 165
+    },
+    "ena_th": {
+     "Permisos predio privado": 135,
+     "Concesiones no maderables": 0,
+     "Permisos CCNN y CC": 150,
+     "Concesiones maderables": 0
+    },
+    "rolliza": 119970,
+    "aserrada": 163,
+    "fe_ctp": 9.46,
+    "fe_dep": 8.67
+   },
+   "SAN MARTIN": {
+    "ubigeo": "22",
+    "nombre": "San Martín",
+    "OM": 50491,
+    "DT": 249814,
+    "ENA": 4932,
+    "ENA_TH": 2537,
+    "oferta": {
+     "Permisos CCNN y CC": 1939,
+     "Concesiones maderables": 15730,
+     "Concesiones no maderables": 0,
+     "Permisos predio privado": 5376,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 21696,
+     "Autorización cambio de uso": 5749,
+     "Arrastre por río": 0
+    },
+    "demanda": {
+     "Permisos CCNN y CC": 0,
+     "Concesiones maderables": 237001,
+     "Permisos predio privado": 822,
+     "Concesiones no maderables": 0,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 4980,
+     "Otros actos": 1679,
+     "Autorización cambio de uso": 4077,
+     "Otros": 1255
+    },
+    "ena_th": {
+     "Permisos predio privado": 2149,
+     "Concesiones no maderables": 0,
+     "Permisos CCNN y CC": 388,
+     "Concesiones maderables": 0
+    },
+    "rolliza": 18404,
+    "aserrada": 32087,
+    "fe_ctp": 13.5,
+    "fe_dep": 17.25
+   },
+   "PASCO": {
+    "ubigeo": "19",
+    "nombre": "Pasco",
+    "OM": 30750,
+    "DT": 88933,
+    "ENA": 401,
+    "ENA_TH": 379,
+    "oferta": {
+     "Permisos CCNN y CC": 11237,
+     "Concesiones maderables": 0,
+     "Concesiones no maderables": 0,
+     "Permisos predio privado": 1650,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 17863,
+     "Autorización cambio de uso": 0,
+     "Arrastre por río": 0
+    },
+    "demanda": {
+     "Permisos CCNN y CC": 35590,
+     "Concesiones maderables": 0,
+     "Permisos predio privado": 0,
+     "Concesiones no maderables": 0,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 51365,
+     "Otros actos": 1977,
+     "Autorización cambio de uso": 0,
+     "Otros": 0
+    },
+    "ena_th": {
+     "Permisos predio privado": 248,
+     "Concesiones no maderables": 0,
+     "Permisos CCNN y CC": 131,
+     "Concesiones maderables": 0
+    },
+    "rolliza": 27680,
+    "aserrada": 3070,
+    "fe_ctp": 5.88,
+    "fe_dep": 7.25
+   },
+   "AMAZONAS": {
+    "ubigeo": "01",
+    "nombre": "Amazonas",
+    "OM": 14105,
+    "DT": 43832,
+    "ENA": 1980,
+    "ENA_TH": 1689,
+    "oferta": {
+     "Permisos CCNN y CC": 12285,
+     "Concesiones maderables": 0,
+     "Concesiones no maderables": 0,
+     "Permisos predio privado": 1599,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 222,
+     "Autorización cambio de uso": 0,
+     "Arrastre por río": 0
+    },
+    "demanda": {
+     "Permisos CCNN y CC": 38631,
+     "Concesiones maderables": 0,
+     "Permisos predio privado": 3801,
+     "Concesiones no maderables": 0,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 0,
+     "Otros actos": 636,
+     "Autorización cambio de uso": 0,
+     "Otros": 764
+    },
+    "ena_th": {
+     "Permisos predio privado": 0,
+     "Concesiones no maderables": 0,
+     "Permisos CCNN y CC": 1689,
+     "Concesiones maderables": 0
+    },
+    "rolliza": 24,
+    "aserrada": 14081,
+    "fe_ctp": 28.0,
+    "fe_dep": 52.0
+   },
+   "CUSCO": {
+    "ubigeo": "08",
+    "nombre": "Cusco",
+    "OM": 3746,
+    "DT": 2227,
+    "ENA": 153,
+    "ENA_TH": 58,
+    "oferta": {
+     "Permisos CCNN y CC": 25,
+     "Concesiones maderables": 0,
+     "Concesiones no maderables": 0,
+     "Permisos predio privado": 3667,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 54,
+     "Autorización cambio de uso": 0,
+     "Arrastre por río": 0
+    },
+    "demanda": {
+     "Permisos CCNN y CC": 2227,
+     "Concesiones maderables": 0,
+     "Permisos predio privado": 0,
+     "Concesiones no maderables": 0,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 0,
+     "Otros actos": 0,
+     "Autorización cambio de uso": 0,
+     "Otros": 0
+    },
+    "ena_th": {
+     "Permisos predio privado": 0,
+     "Concesiones no maderables": 0,
+     "Permisos CCNN y CC": 58,
+     "Concesiones maderables": 0
+    },
+    "rolliza": 0,
+    "aserrada": 3746,
+    "fe_ctp": 7.0,
+    "fe_dep": 192.33
+   },
+   "CAJAMARCA": {
+    "ubigeo": "06",
+    "nombre": "Cajamarca",
+    "OM": 138,
+    "DT": 3871,
+    "ENA": 98,
+    "ENA_TH": 0,
+    "oferta": {
+     "Permisos CCNN y CC": 108,
+     "Concesiones maderables": 0,
+     "Concesiones no maderables": 0,
+     "Permisos predio privado": 19,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 11,
+     "Autorización cambio de uso": 0,
+     "Arrastre por río": 0
+    },
+    "demanda": {
+     "Permisos CCNN y CC": 889,
+     "Concesiones maderables": 0,
+     "Permisos predio privado": 0,
+     "Concesiones no maderables": 0,
+     "Contratos bosques locales": 0,
+     "Registro de plantaciones": 2880,
+     "Otros actos": 102,
+     "Autorización cambio de uso": 0,
+     "Otros": 0
+    },
+    "ena_th": {
+     "Permisos predio privado": 0,
+     "Concesiones no maderables": 0,
+     "Permisos CCNN y CC": 0,
+     "Concesiones maderables": 0
+    },
+    "rolliza": 0,
+    "aserrada": 138,
+    "fe_ctp": 22.33,
+    "fe_dep": 36.0
+   }
+  },
+  "balance": [
+   {
+    "label": "Concesiones forestales (maderables + no maderables + forestación y reforestación)",
+    "grupo": "TH",
+    "DT": 1190128,
+    "OM": 822402,
+    "ENA": 35565,
+    "Oe": 786836,
+    "FNC": 403292,
+    "TIi": 1.5125489936911884,
+    "TIp": 0.33886439105709637
+   },
+   {
+    "label": "Permisos forestales (predios privados + CCNN y CC)",
+    "grupo": "TH",
+    "DT": 2526797,
+    "OM": 916725,
+    "ENA": 51704,
+    "Oe": 865020,
+    "FNC": 1661777,
+    "TIi": 2.9210850616170725,
+    "TIp": 0.6576614583601295
+   },
+   {
+    "label": "Contratos de administración (bosques locales)",
+    "grupo": "TH",
+    "DT": 5768,
+    "OM": 30252,
+    "ENA": 0,
+    "Oe": 30252,
+    "FNC": -24484,
+    "TIi": 0.1906650799947111,
+    "TIp": -4.2447988904299585
+   },
+   {
+    "label": "Títulos habilitantes (TH)",
+    "grupo": "TH_TOTAL",
+    "DT": 3722694,
+    "OM": 1769379,
+    "ENA": 87270,
+    "Oe": 1682109,
+    "FNC": 2040586,
+    "TIi": 2.213111040961079,
+    "TIp": 0.5481473900352809
+   },
+   {
+    "label": "Registro de plantaciones forestales",
+    "grupo": "OAA",
+    "DT": 183756,
+    "OM": 170284,
+    "ENA": 2047,
+    "Oe": 168237,
+    "FNC": 15519,
+    "TIi": 1.0922448688457356,
+    "TIp": 0.08445438516293345
+   },
+   {
+    "label": "Autorización de cambio de uso",
+    "grupo": "OAA",
+    "DT": 4871,
+    "OM": 13689,
+    "ENA": 0,
+    "Oe": 13689,
+    "FNC": -8818,
+    "TIi": 0.3558331507049456,
+    "TIp": -1.81030589201396
+   },
+   {
+    "label": "Otros actos (CTP, depósitos, etc.)",
+    "grupo": "OAA",
+    "DT": 151654,
+    "OM": 0,
+    "ENA": 0,
+    "Oe": 0,
+    "FNC": 151654,
+    "TIi": null,
+    "TIp": 1.0
+   },
+   {
+    "label": "Categoría no determinada (PAS ARFFS)",
+    "grupo": "OAA",
+    "DT": 0,
+    "OM": 0,
+    "ENA": 13878,
+    "Oe": -13878,
+    "FNC": 13878,
+    "TIi": null,
+    "TIp": null
+   },
+   {
+    "label": "Actos administrativos",
+    "grupo": "OAA_TOTAL",
+    "DT": 340281,
+    "OM": 183973,
+    "ENA": 15926,
+    "Oe": 168047,
+    "FNC": 172234,
+    "TIi": 2.024915648598309,
+    "TIp": 0.5061522682723985
+   },
+   {
+    "label": "Arrastre por río",
+    "grupo": "OTROS",
+    "DT": 0,
+    "OM": 359,
+    "ENA": 0,
+    "Oe": 359,
+    "FNC": -359,
+    "TIi": 0.0,
+    "TIp": null
+   },
+   {
+    "label": "Otros (chacras, etc.)",
+    "grupo": "OTROS",
+    "DT": 22700,
+    "OM": 0,
+    "ENA": 0,
+    "Oe": 0,
+    "FNC": 22700,
+    "TIi": null,
+    "TIp": 1.0
+   },
+   {
+    "label": "Otros (*)",
+    "grupo": "OTROS_TOTAL",
+    "DT": 22700,
+    "OM": 359,
+    "ENA": 0,
+    "Oe": 359,
+    "FNC": 22341,
+    "TIi": 63.231197771587745,
+    "TIp": 0.9841850220264318
+   },
+   {
+    "label": "Total general",
+    "grupo": "TOTAL",
+    "DT": 4085676,
+    "OM": 1953710,
+    "ENA": 103195,
+    "Oe": 1850515,
+    "FNC": 2235161,
+    "TIi": 2.2078588933350987,
+    "TIp": 0.5470725040360518
+   }
+  ],
+  "especies": [
+   [
+    "Cachimbo/Misa",
+    210608
+   ],
+   [
+    "Bolaina",
+    147277
+   ],
+   [
+    "Shihuahuaco",
+    136820
+   ],
+   [
+    "Tornillo",
+    122975
+   ],
+   [
+    "Lupuna",
+    90241
+   ],
+   [
+    "Copaiba",
+    87349
+   ],
+   [
+    "Pashaco",
+    75879
+   ],
+   [
+    "Mashonaste",
+    64811
+   ],
+   [
+    "Cumala",
+    53962
+   ],
+   [
+    "Panguana",
+    52660
+   ],
+   [
+    "Huayruro",
+    50626
+   ],
+   [
+    "Capinuri",
+    44539
+   ],
+   [
+    "Capirona",
+    44494
+   ],
+   [
+    "Congona",
+    43763
+   ],
+   [
+    "Catahua",
+    34184
+   ],
+   [
+    "Ana Caspi",
+    33474
+   ],
+   [
+    "Moena",
+    32555
+   ],
+   [
+    "Copal",
+    28921
+   ],
+   [
+    "Almendro",
+    27596
+   ],
+   [
+    "Paujil Ruro",
+    27036
+   ],
+   [
+    "Otras especies",
+    543941
+   ]
+  ],
+  "ena_especies": [
+   [
+    "Tornillo",
+    16050.886
+   ],
+   [
+    "Lupuna",
+    12090.306
+   ],
+   [
+    "Cumala",
+    7843.38
+   ],
+   [
+    "Capinuri",
+    3063.186
+   ],
+   [
+    "Pashaco",
+    2483.403
+   ],
+   [
+    "Cachimbo/Misa",
+    2403.849
+   ]
+  ],
+  "precio_tornillo_pt": 3.45,
+  "impactos": {
+   "pies_tablares": 491735420,
+   "soles": 1308016217,
+   "dolares": 384710652,
+   "arboles": 493958,
+   "hectareas": 37327,
+   "camiones": 40978
+  },
+  "brecha_ccnn": {
+   "oferta": 816822,
+   "demanda": 2399043
+  },
+  "muestra": {
+   "poblacion": 2104,
+   "ctp": 708,
+   "depositos": 1396,
+   "n": 400,
+   "N_ajustado": 2002,
+   "confianza": 0.95,
+   "error": 0.0441,
+   "dem_sin_ajuste": 4510000.0,
+   "dem_ajustada": 4080000.0,
+   "dif_sensibilidad": 0.0942,
+   "p_valor": 0.594,
+   "traslape_ic": 0.831
+  }
+ }
+}
